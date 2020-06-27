@@ -1,0 +1,129 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root{
+    --navBar-Height: 59px;
+}
+
+/* Navigation Bar */
+#navBar{
+    position: relative;
+}
+#navBar{
+    display: flex;
+    align-items: center;
+}
+
+/*Navigation Bar: Logo and Images */
+#logo{
+    margin: 15px 22px;
+}
+#logo img{
+    height: 72px;
+    border-radius: 44px;
+}
+
+/* Navigation Bar: List items styling */
+
+#navBar ul{
+    display: flex;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#navBar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+
+}
+
+#navBar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+} 
+
+#navBar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 33px;
+    border-radius: 20px;
+    text-decoration: none;
+} 
+#navBar ul li a:hover{
+    background-color: white;
+    color: black;
+} 
+
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* Services class */
+
+
+/* utility Classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
