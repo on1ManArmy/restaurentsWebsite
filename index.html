@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Order | myOnlineMeal.com</title>
     <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" media="screen and (max-width: 1070px)"href="phone1.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -82,6 +84,37 @@
             </div>
         </div>
     </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="noaction.php">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    
+                    <label for="contact">Contact: </label>
+                    <input type="text" name="contact" id="contact" placeholder="Enter Your Number">
+
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+
+                    <label for="text">Message: </label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                    
+                    <input type="submit">
+
+                  
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; myOnlineMeal.com All rights Reserved
+        </div>
+    </footer>
 </body>
 
 </html>
