@@ -15,9 +15,9 @@ html{
 }
 
 /* Navigation Bar */
-#navBar{
+/* #navBar{
     position: absolute;
-}
+} */
 #navBar{
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 660px;
+    height: 510px;
     justify-content: center;
     align-items: center;
 
